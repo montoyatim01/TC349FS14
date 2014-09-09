@@ -96,16 +96,44 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-color: #ecf0f1;
+}
+
+h1, p, ul {
+  margin:0;
+  padding:0;
+}
+
+ul {
+  list-style-type:none;
+}
+
+header {
+  background-color: #2980b9;
+  padding: .5em 0;
+  text-align: center;
+  color: #fff;
+}
 
 
+#main-feed {
+  padding:2em;
+}
 
+.toggle-button {
+  display: inline-block;
+  padding: 15px 20px;
+  background:#ccc;
+}
 
-
-
-
-
-
-
+#feed li {
+  padding: .5em;
+  border: 1px solid #999;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  background: #fff;
+}
 
 
 
