@@ -1,0 +1,31 @@
+.hero {
+  background: #593c64;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+
+  .hero-spacer{
+    height:112px;
+    width:100%;
+    margin: 0;
+  }
+
+  .content {
+    background: #482955;
+    margin: 0 auto;
+    width: 35%;
+    height: 55%;
+    height: 288px;
+    margin-top: 10px;
+    @include box-shadow(rgba(white,.3) 0px 0px 8px);
+  }
+
+  img {
+    height: auto;
+    max-height: 340px;
+    width: 100%;
+    overflow: hidden;
+  }
+}

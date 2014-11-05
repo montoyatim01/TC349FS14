@@ -1,0 +1,407 @@
+/* line 5, ../sass/components/_base.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 9, ../sass/components/_base.scss */
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 20, ../sass/components/_base.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 25, ../sass/components/_base.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 34, ../sass/components/_base.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+/* line 51, ../sass/components/_base.scss */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 59, ../sass/components/_base.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 69, ../sass/components/_base.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+/* line 77, ../sass/components/_base.scss */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 92, ../sass/components/_base.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 100, ../sass/components/_base.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 111, ../sass/components/_base.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 120, ../sass/components/_base.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 137, ../sass/components/_base.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 150, ../sass/components/_base.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 167, ../sass/components/_base.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 172, ../sass/components/_base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 181, ../sass/components/_base.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 208, ../sass/components/_base.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 216, ../sass/components/_base.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 220, ../sass/components/_base.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 224, ../sass/components/_base.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 234, ../sass/components/_base.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 239, ../sass/components/_base.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 244, ../sass/components/_base.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 249, ../sass/components/_base.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 253, ../sass/components/_base.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 263, ../sass/components/_base.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 269, ../sass/components/_base.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 274, ../sass/components/_base.scss */
+body {
+  min-width: 1200px;
+  max-width: 1500px;
+  margin: 0 auto;
+  background: #d0c8d3;
+}
+
+/* line 1, ../sass/components/_media-grid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #846f8d;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  overflow: hidden;
+}
+/* line 9, ../sass/components/_media-grid.scss */
+.media-grid li {
+  background: #482955;
+  float: left;
+  height: 200px;
+  width: 20%;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 17, ../sass/components/_media-grid.scss */
+.media-grid li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 21, ../sass/components/_media-grid.scss */
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+/* line 26, ../sass/components/_media-grid.scss */
+.media-grid li .media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+/* line 31, ../sass/components/_media-grid.scss */
+.media-grid li img {
+  height: 100%;
+  max-height: 400px;
+  width: auto;
+  overflow: hidden;
+}
+
+/* line 1, ../sass/components/_hero.scss */
+.hero {
+  background: #593c64;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 9, ../sass/components/_hero.scss */
+.hero .hero-spacer {
+  height: 112px;
+  width: 100%;
+  margin: 0;
+}
+/* line 15, ../sass/components/_hero.scss */
+.hero .content {
+  background: #482955;
+  margin: 0 auto;
+  width: 35%;
+  height: 55%;
+  height: 288px;
+  margin-top: 10px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 8px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 8px;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 8px;
+}
+/* line 25, ../sass/components/_hero.scss */
+.hero img {
+  height: auto;
+  max-height: 340px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 1, ../sass/components/_about.scss */
+.about {
+  background: #d0c8d3;
+  height: 500px;
+  margin: 0;
+  padding: 20px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  -ms-column-count: 3;
+  -o-column-count: 3;
+  column-count: 3;
+  overflow: hidden;
+  text-overflow: clip;
+}
+/* line 10, ../sass/components/_about.scss */
+.about p {
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+/* line 1, ../sass/components/_tagline.scss */
+.tagline {
+  height: 300px;
+  background: #d0c8d3;
+}
+/* line 5, ../sass/components/_tagline.scss */
+.tagline img {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  background: #f3f3f3;
+  margin: 20px;
+}
+/* line 13, ../sass/components/_tagline.scss */
+.tagline p {
+  padding-top: 20px;
+  text-align: center;
+}
