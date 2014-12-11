@@ -879,25 +879,27 @@ body {
   }
   /* line 212, ../sass/components/_content.scss */
   #about img {
+    width: 40%;
+    height: auto;
     margin: 20px;
     float: left;
     margin-top: 0;
   }
-  /* line 217, ../sass/components/_content.scss */
+  /* line 219, ../sass/components/_content.scss */
   #about img:hover {
     opacity: 1;
   }
-  /* line 222, ../sass/components/_content.scss */
+  /* line 224, ../sass/components/_content.scss */
   #about p {
     margin: 0;
     color: rgba(255, 255, 255, 0.8);
     font-family: Sansation-Light;
     font-size: 1.5em;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 80px;
     text-indent: 2em;
   }
-  /* line 232, ../sass/components/_content.scss */
+  /* line 234, ../sass/components/_content.scss */
   #about h2 {
     margin: 0;
     margin-left: 20px;
@@ -909,7 +911,7 @@ body {
   }
 }
 @media (max-width: 960px) {
-  /* line 248, ../sass/components/_content.scss */
+  /* line 250, ../sass/components/_content.scss */
   #content {
     background: rgba(0, 0, 0, 0.4);
     width: 95%;
@@ -923,7 +925,7 @@ body {
     z-index: 1;
     padding-bottom: 50px;
   }
-  /* line 261, ../sass/components/_content.scss */
+  /* line 263, ../sass/components/_content.scss */
   #content img {
     background: rgba(0, 0, 0, 0.2);
     -webkit-transition-property: opacity;
@@ -939,12 +941,12 @@ body {
     height: auto;
     margin-bottom: 20px;
   }
-  /* line 270, ../sass/components/_content.scss */
+  /* line 272, ../sass/components/_content.scss */
   #content img:hover {
     opacity: 0.3;
   }
 
-  /* line 281, ../sass/components/_content.scss */
+  /* line 283, ../sass/components/_content.scss */
   #title {
     font-size: 3em;
     color: rgba(255, 255, 255, 0.8);
@@ -956,7 +958,7 @@ body {
     padding-top: 30px;
   }
 
-  /* line 293, ../sass/components/_content.scss */
+  /* line 295, ../sass/components/_content.scss */
   .item {
     width: 65%;
     height: auto;
@@ -974,11 +976,11 @@ body {
     overflow: scroll;
     z-index: 3;
   }
-  /* line 304, ../sass/components/_content.scss */
+  /* line 306, ../sass/components/_content.scss */
   .item:hover {
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 309, ../sass/components/_content.scss */
+  /* line 311, ../sass/components/_content.scss */
   .item h2 {
     position: absolute;
     font-family: Cali;
@@ -989,24 +991,24 @@ body {
     z-index: -1;
     color: white;
   }
-  /* line 319, ../sass/components/_content.scss */
+  /* line 321, ../sass/components/_content.scss */
   .item h2:visited {
     color: white;
   }
-  /* line 322, ../sass/components/_content.scss */
+  /* line 324, ../sass/components/_content.scss */
   .item h2:active {
     color: white;
   }
-  /* line 325, ../sass/components/_content.scss */
+  /* line 327, ../sass/components/_content.scss */
   .item h2:link {
     color: white;
   }
-  /* line 328, ../sass/components/_content.scss */
+  /* line 330, ../sass/components/_content.scss */
   .item h2:hover {
     color: white;
   }
 
-  /* line 336, ../sass/components/_content.scss */
+  /* line 338, ../sass/components/_content.scss */
   #about {
     overflow: scroll;
     -webkit-transition-property: none;
@@ -1014,7 +1016,7 @@ body {
     -o-transition-property: none;
     transition-property: none;
   }
-  /* line 340, ../sass/components/_content.scss */
+  /* line 342, ../sass/components/_content.scss */
   #about img {
     text-align: center;
     margin: 0 auto;
@@ -1023,11 +1025,11 @@ body {
     float: none;
     margin-top: 0;
   }
-  /* line 347, ../sass/components/_content.scss */
+  /* line 349, ../sass/components/_content.scss */
   #about img:hover {
     opacity: 1;
   }
-  /* line 352, ../sass/components/_content.scss */
+  /* line 354, ../sass/components/_content.scss */
   #about p {
     text-align: left;
     margin: 0;
@@ -1038,7 +1040,7 @@ body {
     margin-right: 10px;
     text-indent: 2em;
   }
-  /* line 363, ../sass/components/_content.scss */
+  /* line 365, ../sass/components/_content.scss */
   #about h2 {
     text-align: center;
     margin: 0;
@@ -1051,7 +1053,7 @@ body {
   }
 }
 @media (max-width: 480px) {
-  /* line 382, ../sass/components/_content.scss */
+  /* line 384, ../sass/components/_content.scss */
   #content {
     background: rgba(0, 0, 0, 0.4);
     width: 95%;
@@ -1066,7 +1068,7 @@ body {
     padding-bottom: 25px;
     overflow-x: hidden;
   }
-  /* line 396, ../sass/components/_content.scss */
+  /* line 398, ../sass/components/_content.scss */
   #content img {
     background: rgba(0, 0, 0, 0.2);
     -webkit-transition-property: opacity;
@@ -1082,12 +1084,12 @@ body {
     height: auto;
     margin-bottom: 15px;
   }
-  /* line 405, ../sass/components/_content.scss */
+  /* line 407, ../sass/components/_content.scss */
   #content img:hover {
     opacity: 0.3;
   }
 
-  /* line 416, ../sass/components/_content.scss */
+  /* line 418, ../sass/components/_content.scss */
   #title {
     font-size: 2em;
     color: rgba(255, 255, 255, 0.8);
@@ -1099,7 +1101,7 @@ body {
     padding-top: 30px;
   }
 
-  /* line 429, ../sass/components/_content.scss */
+  /* line 431, ../sass/components/_content.scss */
   .item {
     width: 320px;
     height: auto;
@@ -1118,11 +1120,11 @@ body {
     z-index: 3;
     padding: 0;
   }
-  /* line 441, ../sass/components/_content.scss */
+  /* line 443, ../sass/components/_content.scss */
   .item:hover {
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 446, ../sass/components/_content.scss */
+  /* line 448, ../sass/components/_content.scss */
   .item h2 {
     position: absolute;
     font-family: Cali;
@@ -1133,24 +1135,24 @@ body {
     z-index: -1;
     color: white;
   }
-  /* line 456, ../sass/components/_content.scss */
+  /* line 458, ../sass/components/_content.scss */
   .item h2:visited {
     color: white;
   }
-  /* line 459, ../sass/components/_content.scss */
+  /* line 461, ../sass/components/_content.scss */
   .item h2:active {
     color: white;
   }
-  /* line 462, ../sass/components/_content.scss */
+  /* line 464, ../sass/components/_content.scss */
   .item h2:link {
     color: white;
   }
-  /* line 465, ../sass/components/_content.scss */
+  /* line 467, ../sass/components/_content.scss */
   .item h2:hover {
     color: white;
   }
 
-  /* line 474, ../sass/components/_content.scss */
+  /* line 476, ../sass/components/_content.scss */
   #about {
     overflow: scroll;
     -webkit-transition-property: none;
@@ -1158,7 +1160,7 @@ body {
     -o-transition-property: none;
     transition-property: none;
   }
-  /* line 477, ../sass/components/_content.scss */
+  /* line 479, ../sass/components/_content.scss */
   #about img {
     text-align: center;
     margin: 0 auto;
@@ -1169,11 +1171,11 @@ body {
     width: 50%;
     height: auto;
   }
-  /* line 487, ../sass/components/_content.scss */
+  /* line 489, ../sass/components/_content.scss */
   #about img:hover {
     opacity: 1;
   }
-  /* line 492, ../sass/components/_content.scss */
+  /* line 494, ../sass/components/_content.scss */
   #about p {
     text-align: left;
     margin: 0;
@@ -1184,7 +1186,7 @@ body {
     margin-right: 10px;
     text-indent: 2em;
   }
-  /* line 503, ../sass/components/_content.scss */
+  /* line 505, ../sass/components/_content.scss */
   #about h2 {
     text-align: center;
     margin: 0;

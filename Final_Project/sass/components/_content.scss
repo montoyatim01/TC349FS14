@@ -210,6 +210,8 @@ h2{
     @include transition-property(none);
 
       img{
+        width: 40%;
+        height:auto;
         margin:20px;
         float:left;
         margin-top:0;
@@ -225,7 +227,7 @@ h2{
       font-family: Sansation-Light;
       font-size: 1.5em;
       margin-left: 20px;
-      margin-right: 10px;
+      margin-right: 80px;
       text-indent:2em;
       }
 

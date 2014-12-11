@@ -1,6 +1,6 @@
 1. You posted in your slides that we needed to run a validator on our HTML, and CSS, and that it needed to come out
-  with no errors. For my _base.scss, I copied and pasted the CSS from the base HTML5 Boilerplate CSS. All of the CSS
-  errors I'm getting in my code are from that base CSS.
+  with no errors. For my _base.scss, I copied and pasted the CSS from the base HTML5 Boilerplate CSS. All of the
+  (8) CSS errors I'm getting when I run the validator on my application.css are from that base CSS.
 
 2. I only got to doing the homepage, plus three additional pages instead of four. I have the navigation built in for
   the fourth page, but I intend to build out a PHP login interface for clients to schedule services through me, check
@@ -12,7 +12,17 @@
    I'm sure there are areas where I should have gone about it a different way, but didn't. Sometimes the long way is
    easiest for me :D
 
-4. The final site is hosted at timothymontoya.com
+4. On the Films page, while viewing it on my iPad, sometimes the images don't all load correctly. I'm thinking this
+  is because the java script I have running executes before all of the images can be properly loaded and displayed,
+   causing them to not be loaded and displayed at all. Re-clicking on the nav link to the page fixes it. Seemingly
+   because the images are already in the cache, and it doesn't have to load them from the server. I lowered the
+   quality on the tumbnails to hopefully aid in the issue, and it seems to have helped to a point. Because I'm
+   actually going to use this site, I'll work on writing up some javascript that will wait a second before it
+   loads the pop-up window function, so to give the thumbnails enough time to load. Weird that it only does that
+    with the Films page, as the Photography page uses the same javascript, albeit a different function, but the
+    thumbnails for that page are much larger in filesize.
 
-5. I've really enjoyed taking this class, and I sure as hell have learned a lot from it. I look forward to your
+5. The final site is hosted at timothymontoya.com
+
+6. I've really enjoyed taking this class, and I sure as hell have learned a lot from it. I look forward to your
   Web Administration class in the Spring.
