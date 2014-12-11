@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Films</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+   <link rel="stylesheet" type="text/css" href="vegas/jquery.vegas.css" />
+   <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+   <script type="text/javascript" src="vegas/jquery.vegas.js"></script>
+   <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+   <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
+
+   <link rel="icon" type="image/png" href="favicon.png" />
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/application.css">
+    </head>
+    <body>
+      <div id="menu">
+        <div id="menu-spacer"></div>
+
+        <ol>
+          <li><a href="index.html"><h1>Home<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></h1></a></li>
+          <li><a href="films.html"><h2>Films</h2></a></li>
+          <li><a href="photography.html"><h2>Photography</h2></a></li>
+          <li><a href="about.html"><h2>About</h2></a></li>
+          <li><a href="#"><h2>Client</h2></a></li>
+        </ol>
+      </div>
+
+
+       <div id="content">
+         <div id="title"> Films </div>
+
+         <div style="text-align:center">
+           <div class="item"> <a class="fancybox-media" href="https://vimeo.com/110197853">
+           <img src="img/thumb/nate_heather.jpg" alt=""><h2>(Wedding) Nate+Heather</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/113170112">
+           <img src="img/thumb/doug_carlyn.jpg" alt=""><h2>(Wedding) Doug+Carlyn</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/114073526">
+           <img src="img/thumb/spartan_upcycle.jpg" alt=""><h2>(Promo) Spartan Upcycle</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/114073496">
+           <img src="img/thumb/msu_film_club_promo.jpg" alt=""><h2>(Promo) MSU Film Club</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/114073494">
+           <img src="img/thumb/tag.jpg" alt=""><h2>(Film) Tag</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/114073492">
+           <img src="img/thumb/paradise_trip.jpg" alt=""><h2>(Film) Paradise Trip</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/114075705">
+           <img src="img/thumb/nonots.jpg" alt=""><h2>(Film) Night of <br>Night of the Stabber</h2></a></div>
+
+           <div class="item">  <a class="fancybox-media" href="https://vimeo.com/114073205">
+           <img src="img/thumb/fun_right_now.jpg" alt=""><h2>(Music) Fun Right Now</h2></a></div>
+
+
+
+
+
+         </div>
+       </div>
+
+<script type="text/javascript">
+
+var check = function(){
+  if(condition){
+    // run when condition is met
+  }
+  else {
+    setTimeout(check, 1000); // check again in a second
+  }
+}
+
+check();
+
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.fancybox-media').fancybox({
+    autoScale : 'false',
+    autoDimensions : 'true',
+    width : 1024,
+    height : 576,
+    openEffect  : 'none',
+    closeEffect : 'none',
+    padding : 5,
+    helpers : {
+      media : {}
+    }
+  });
+});
+</script>
+
+
+
+
+    </body>
+</html>

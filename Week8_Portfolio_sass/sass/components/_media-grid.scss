@@ -13,9 +13,12 @@
     width: 20%;
     overflow: hidden;
     @include opacity(1);
+    @include transition-property(all);
+    @include transition-duration(.5s);
 
     &:hover{
       @include opacity(.5);
+      background: rgba(57,119,189,1);
     }
 
     &:nth-child(even) {

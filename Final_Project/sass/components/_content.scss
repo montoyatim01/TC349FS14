@@ -1,0 +1,515 @@
+#content{
+  background: rgba(0,0,0,.4);
+  display:inline;
+  margin-left:298px;
+  width: 84%;
+  min-width:75%;
+  height: 100%;
+  min-height:85%;
+  margin-top:0;
+  padding-top: 26px;
+  overflow: visible;
+  overflow:scroll;
+  position:fixed;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  img{
+    background: rgba(0,0,0,.2);
+    @include transition-property(opacity);
+    @include transition-duration(.5s);
+    z-index:2;
+    margin-bottom:50px;
+
+    &:hover{
+      opacity:.3
+           }
+      }
+
+
+
+
+}
+
+
+
+#title{
+  font-size:6em;
+  color: rgba(255,255,255,.8);
+  font-family: Cali;
+  text-align: center;
+  width: 100%;
+  margin-top:-30px;
+  padding-bottom:40px;
+  padding-top:30px;
+
+}
+
+
+.item{
+  width:420px;
+  height:227px;
+  padding-left:25px;
+  display:inline;
+  position: relative;
+  @include transition-property(all);
+  @include transition-duration(.5s);
+  color: rgba(255,255,255,0);
+  font-family: Sansation;
+  overflow:scroll;
+
+
+  &:hover{
+    color: rgba(255,255,255,.7);
+         }
+
+
+
+  h2 {
+  position: absolute;
+  font-family: Cali;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  z-index:-1;
+  color:rgba(255,255,255,1);
+
+    &:visited{
+    color:rgba(255,255,255,1);
+            }
+
+    &:active{
+    color:rgba(255,255,255,1);
+            }
+
+    &:link{
+    color:rgba(255,255,255,1);
+          }
+
+    &:hover{
+    color:rgba(255,255,255,1);
+          }
+      }
+
+}
+
+
+
+#about{
+  text-align:left;
+  overflow:scroll;
+  @include transition-property(none);
+
+  img{
+    margin:20px;
+    float:left;
+    margin-top:0;
+    &:hover{
+      opacity:1;
+      }
+}
+
+p{
+    margin:0;
+    color: rgba(255,255,255,.8);
+    font-family: Sansation-Light;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-indent:2em;
+}
+
+h2{
+    margin:0;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:5px;
+    color: rgba(255,255,255,.8);
+    font-family: Sansation;
+    font-size: 2em;
+}
+}
+
+
+
+
+@media (max-width: 1440px) {
+
+  #content{
+    background: rgba(0,0,0,.4);
+    display:inline;
+    margin-left:298px;
+    width: auto;
+    min-width:75%;
+    height: 100%;
+    min-height:85%;
+    margin-top:0;
+    overflow:scroll;
+    position:fixed;
+    padding-bottom:90px;
+
+    img{
+      background: rgba(0,0,0,.2);
+      @include transition-property(opacity);
+      @include transition-duration(.5s);
+      margin-bottom:50px;
+      margin-right:40px;
+      margin-left:15px;
+      width:420px;
+      height:auto;
+
+        &:hover{
+        opacity:.3
+              }
+        }
+
+
+
+
+  }
+
+
+
+  #title{
+    font-size:5em;
+    color: rgba(255,255,255,.8);
+    font-family: Cali;
+    text-align: center;
+    width: 100%;
+    margin-top:-40px;
+    padding-bottom:20px;
+        }
+
+
+  .item{
+    width:420px;
+    height:227px;
+    display:inline;
+    @include transition-property(all);
+    @include transition-duration(.5s);
+    color: rgba(255,255,255,0);
+    font-family: Sansation;
+    overflow-x:hidden;
+    overflow-y:scroll;
+
+      &:hover{
+      color: rgba(255,255,255,.7);
+            }
+        }
+
+
+
+
+  #about{
+    text-align:left;
+    overflow:scroll;
+    @include transition-property(none);
+
+      img{
+        margin:20px;
+        float:left;
+        margin-top:0;
+
+          &:hover{
+            opacity:1;
+                }
+              }
+
+    p{
+      margin:0;
+      color: rgba(255,255,255,.8);
+      font-family: Sansation-Light;
+      font-size: 1.5em;
+      margin-left: 20px;
+      margin-right: 10px;
+      text-indent:2em;
+      }
+
+    h2{
+      margin:0;
+      margin-left:20px;
+      margin-top:20px;
+      margin-bottom:5px;
+      color: rgba(255,255,255,.8);
+      font-family: Sansation;
+      font-size: 2em;
+    }
+}
+
+
+}
+
+@media (max-width: 960px) {
+
+  #content{
+    background: rgba(0,0,0,.4);
+    width: 95%;
+    margin: 0 auto;
+    min-width:440px;
+    height: auto;
+    margin-top:75px;
+    margin-left:2.5%;
+    overflow:scroll;
+    position:absolute;
+    z-index:1;
+    padding-bottom:50px;
+
+    img{
+      background: rgba(0,0,0,.2);
+      @include transition-property(opacity);
+      @include transition-duration(.5s);
+      z-index:2;
+      width: 65%;
+      height: auto;
+      margin-bottom:20px;
+
+      &:hover{
+        opacity:.3
+          }
+        }
+
+
+
+
+  }
+
+
+  #title{
+    font-size:3em;
+    color: rgba(255,255,255,.8);
+    font-family: Cali;
+    text-align: center;
+    width: 100%;
+    margin-top:-30px;
+    padding-bottom:40px;
+    padding-top:30px;
+        }
+
+
+  .item{
+    width:65%;
+    height:auto;
+    display:inline;
+    @include transition-property(all);
+    @include transition-duration(.5s);
+    color: rgba(255,255,255,0);
+    font-family: Sansation;
+    overflow:scroll;
+    z-index:3;
+
+    &:hover{
+      color: rgba(255,255,255,.7);
+        }
+
+
+    h2 {
+      position: absolute;
+      font-family: Cali;
+      font-size:28px;
+      top: -20px;
+      left: 0;
+      width: 100%;
+      z-index:-1;
+      color:rgba(255,255,255,1);
+
+      &:visited{
+        color:rgba(255,255,255,1);
+              }
+      &:active{
+        color:rgba(255,255,255,1);
+              }
+      &:link{
+        color:rgba(255,255,255,1);
+              }
+      &:hover{
+        color:rgba(255,255,255,1);
+              }
+          }
+
+  }
+
+
+  #about{
+    overflow:scroll;
+    @include transition-property(none);
+
+    img{
+      text-align:center;
+      margin: 0 auto;
+      margin:20px;
+      margin-left: 17.5%;
+      float:none;
+      margin-top:0;
+      &:hover{
+        opacity:1;
+      }
+    }
+
+    p{
+      text-align:left;
+      margin:0;
+      color: rgba(255,255,255,.8);
+      font-family: Sansation-Light;
+      font-size: 1.5em;
+      margin-left: 20px;
+      margin-right: 10px;
+      text-indent:2em;
+    }
+
+    h2{
+      text-align:center;
+      margin:0;
+      margin-left:20px;
+      margin-top:0px;
+      margin-bottom:5px;
+      color: rgba(255,255,255,.8);
+      font-family: Sansation;
+      font-size: 2em;
+    }
+  }
+
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  #content{
+    background: rgba(0,0,0,.4);
+    width: 95%;
+    margin: 0 auto;
+    min-width:220px;
+    height: auto;
+    margin-top:75px;
+    margin-left:2.5%;
+    overflow:scroll;
+    position:absolute;
+    z-index:1;
+    padding-bottom:25px;
+    overflow-x: hidden;
+
+    img{
+      background: rgba(0,0,0,.2);
+      @include transition-property(opacity);
+      @include transition-duration(.5s);
+      z-index:2;
+      width: 280px;
+      height: auto;
+      margin-bottom:15px;
+
+        &:hover{
+          opacity:.3
+          }
+        }
+
+
+
+
+  }
+
+
+  #title{
+    font-size:2em;
+    color: rgba(255,255,255,.8);
+    font-family: Cali;
+    text-align: center;
+    width: 100%;
+    margin-top:-30px;
+    padding-bottom:25px;
+    padding-top:30px;
+
+  }
+
+
+  .item{
+    width:320px;
+    height:auto;
+    display:inline;
+    @include transition-property(all);
+    @include transition-duration(.5s);
+    color: rgba(255,255,255,0);
+    font-family: Sansation;
+    overflow:scroll;
+    z-index:3;
+    padding:0;
+
+      &:hover{
+        color: rgba(255,255,255,.7);
+          }
+
+
+    h2 {
+      position: absolute;
+      font-family: Cali;
+      font-size:20px;
+      top: -20px;
+      left: -10px;
+      width: 100%;
+      z-index:-1;
+      color:rgba(255,255,255,1);
+
+      &:visited{
+        color:rgba(255,255,255,1);
+                }
+      &:active{
+        color:rgba(255,255,255,1);
+              }
+      &:link{
+        color:rgba(255,255,255,1);
+              }
+      &:hover{
+        color:rgba(255,255,255,1);
+              }
+    }
+
+  }
+
+
+
+  #about{
+    overflow:scroll;
+    @include transition-property(none);
+    img{
+      text-align:center;
+      margin: 0 auto;
+      margin:20px;
+      margin-left: 25%;
+      float:none;
+      margin-top:0;
+      width: 50%;
+      height: auto;
+
+        &:hover{
+          opacity:1;
+              }
+            }
+
+    p{
+      text-align:left;
+      margin:0;
+      color: rgba(255,255,255,.8);
+      font-family: Sansation-Light;
+      font-size: 1em;
+      margin-left: 20px;
+      margin-right: 10px;
+      text-indent:2em;
+    }
+
+    h2{
+      text-align:center;
+      margin:0;
+      margin-left:20px;
+      margin-top:0px;
+      margin-bottom:5px;
+      color: rgba(255,255,255,.8);
+      font-family: Sansation;
+      font-size: 2em;
+    }
+  }
+
+}

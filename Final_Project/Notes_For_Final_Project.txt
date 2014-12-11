@@ -1,0 +1,18 @@
+1. You posted in your slides that we needed to run a validator on our HTML, and CSS, and that it needed to come out
+  with no errors. For my _base.scss, I copied and pasted the CSS from the base HTML5 Boilerplate CSS. All of the CSS
+  errors I'm getting in my code are from that base CSS.
+
+2. I only got to doing the homepage, plus three additional pages instead of four. I have the navigation built in for
+  the fourth page, but I intend to build out a PHP login interface for clients to schedule services through me, check
+  on the status, see pricing, etc. I would have liked to have that done for now, but this will be my first real project
+  writing in PHP, so I have a bit of learning to do still.
+
+3. I've never had any formal training on HTML and CSS. I started writing web pages in the 6th grade, and I've basically
+  self taught myself most things, with the help of Google. Point being my markup probably isn't the best looking, and
+   I'm sure there are areas where I should have gone about it a different way, but didn't. Sometimes the long way is
+   easiest for me :D
+
+4. The final site is hosted at timothymontoya.com
+
+5. I've really enjoyed taking this class, and I sure as hell have learned a lot from it. I look forward to your
+  Web Administration class in the Spring.

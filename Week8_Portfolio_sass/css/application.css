@@ -307,22 +307,31 @@ body {
   overflow: hidden;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
-/* line 17, ../sass/components/_media-grid.scss */
+/* line 19, ../sass/components/_media-grid.scss */
 .media-grid li:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
+  background: #3977bd;
 }
-/* line 21, ../sass/components/_media-grid.scss */
+/* line 24, ../sass/components/_media-grid.scss */
 .media-grid li:nth-child(even) {
   background: #846f8d;
 }
-/* line 26, ../sass/components/_media-grid.scss */
+/* line 29, ../sass/components/_media-grid.scss */
 .media-grid li .media-grid-sm li {
   width: 10%;
   height: 100px;
 }
-/* line 31, ../sass/components/_media-grid.scss */
+/* line 34, ../sass/components/_media-grid.scss */
 .media-grid li img {
   height: 100%;
   max-height: 400px;

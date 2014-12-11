@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Timothy Montoya</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+	 <link rel="stylesheet" type="text/css" href="vegas/jquery.vegas.css" />
+	 <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	 <script type="text/javascript" src="vegas/jquery.vegas.js"></script>
+	 <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+	 <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/application.css">
+    </head>
+    <body>
+       <div id="menu">
+         <div id="menu-spacer"></div>
+
+       <ol>
+         <li><a href="index.html"><h1>Home<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></h1></a></li>
+       <li><a href="films.html"><h2>Films</h2></a></li>
+       <li><a href="photography.html"><h2>Photography</h2></a></li>
+       <li><a href="about.html"><h2>About</h2></a></li>
+       <li><a href="#"><h2>Client</h2></a></li>
+       </ol>
+       </div>
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		autoScale : 'false',
+		autoDimensions : 'false',
+		width : 640,
+		height : 360,
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
+});
+</script>
+<script type="text/javascript">
+$(function() {
+	$.vegas({
+  	src:'/img/background.jpg',
+  	valign:'20%', // top, center, bottom or %
+  	align:'right' // left, center, right or %
+	});
+
+
+	$.vegas('slideshow', {
+    preload: 'true',
+  	backgrounds:[
+    	{ src:'img/background2.jpg', fade:1000 },
+      { src:'img/background3.jpg', fade:1000 },
+      { src:'img/background.jpg', fade:1000 },
+    	{ src:'img/background4.jpg', fade:1000 }
+  	]
+	})
+});
+</script>
+
+
+
+    </body>
+</html>
